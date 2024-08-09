@@ -16,7 +16,7 @@ with open("C:\\Users\\user\\PycharmProjects\\deep_tsp\\algorithm\\python_run\\rm
 
 #exec(open("C:\\Users\\user\\PycharmProjects\\deep_tsp\\algorithm\\python_run\\rm_python_opt.py").read())
 
-
+####
 #####################
 ##experimental data##
 #####################
