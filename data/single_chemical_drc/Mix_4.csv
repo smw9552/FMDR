@@ -1,0 +1,8 @@
+Substance,CAS NO,MW,percentage,Species,RM,Unit for RM,a,b,g,Coversion Unit,EC50,Unit for SCA
+Tri-n-butyl phosphate (TnBP),126-73-8,266.31,6.914801644,Unknown,Sigmoid,uM,98.9,46.72,269.49,uM,270.533075,uM
+Triphenyl phosphate (TPhP),115-86-6,326.28,17.7611614,Unknown,Logistic,uM,87.47,-1.38,233.89,uM,288.0439624,uM
+Tris (1-chloro-2-propyl) phosphate (TCPP),13674-84-5,327.57,10.82859853,Unknown,Sigmoid,uM,97.98,59.02,304.17,uM,306.6045767,uM
+2-Ethylhexyl diphenyl phosphate (EHDPHP),1241-94-7,362.41,6.659337225,Unknown,Gompertz,uM,96.56,194.21,245.71,uM,326.9649439,uM
+Tris(2-butoxyethyl) phosphate?(TBOEP),78-51-3,398.47,20.90799205,Unknown,Sigmoid,uM,99.19,85.59,307.15,uM,308.5456629,uM
+"Tris (1,3-dichloropropyl) phosphate (TDCIPP)",13674-87-8,430.89,21.95833801,Unknown,Logistic,uM,971.33,-1.12,8240.87,uM,617.7815531,uM
+Tri (2-ethylhexyl)phosphate (TEHP),78-42-2,434.64,14.96977114,Unknown,Gompertz,uM,493.5401,1150.6876,1831.5536,uM,878.3767572,uM

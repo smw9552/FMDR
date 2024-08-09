@@ -1,0 +1,11 @@
+Substance,CAS NO,MW,percentage,Species,RM,Unit for RM,a,b,g,Coversion Unit,EC50,Unit for SCA
+Cinoxacin,28657-80-9,262.22,8.003,Vibrio fischeri,GL,uM,0.848,6.289,0.437,nM,0.446,nM
+Enoxacin,74011-58-8,320.32,2.764,Vibrio fischeri,GL,uM,16.557,26.812,0.133,nM,0.154,nM
+Flumequine,42835-25-6,261.25,1.306,Vibrio fischeri,GL,uM,100.582,103.12,0.0413,nM,0.0728,nM
+Lomefloxacin,98079-51-7,351.35,1.141,Vibrio fischeri,GL,uM,71.694,72.11,0.0475,nM,0.0636,nM
+Nalidixic acid,389-08-2,232.23,15.451,Vibrio fischeri,GL,uM,-8.213,128.48,0.042,nM,0.861,nM
+Norfloxacin,70458-96-7,319.33,1.236,Vibrio fischeri,Weibull,uM,7.497,6.77,,nM,0.0689,nM
+Ofloxacin,82419-36-1,361.4,0.675,Vibrio fischeri,Weibull,uM,4.829,3.648,,nM,0.0376,nM
+Oxolinic acid,14698-29-4,261.23,1.574,Vibrio fischeri,GL,uM,145.193,159.45,0.0297,nM,0.0877,nM
+Pipemidic acid,51940-44-4,303.32,60.295,Vibrio fischeri,BCW,uM,-3.942,2.153,0.495,nM,3.36,nM
+Piromidic acid,19562-30-2,288.3,7.555,Vibrio fischeri,Weibull,uM,1.018,3.687,,nM,0.421,nM

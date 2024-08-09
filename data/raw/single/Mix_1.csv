@@ -1,0 +1,10 @@
+Substance,CAS NO,MW,percentage,Species,RM,Unit for RM,a,b,g,Coversion Unit,EC50,Unit for SCA
+PFHxS,355-46-4,438.2,7.28605058,Unknown,Chapman,uM,99.1,1.03E-02,6.50E+00,uM,117.6106651,uM
+"2,4-DCP",120-83-2,163,20.35818777,Unknown,Chapman,uM,100,0.002948,4.825,uM,328.6197338,uM
+"2,5-DCP",583-78-8,163,18.91519097,Unknown,Chapman,uM,114.7,0.001358,2.258,uM,305.3270308,uM
+propyl paraben (pPB),94-13-3,180.2,16.7134888,Unknown,Logistic,uM,114.4,-2.07E+00,8.39E+02,uM,269.7873851,uM
+Butyl paraben (bPB),94-26-8,194.23,11.87803732,Unknown,Sigmoid,uM,99.22,70.05,345,uM,191.7340339,uM
+Methyl mercury chloride (Hg),115-09-3,251.08,0.715545395,Unknown,Logistic,uM,27675.7971,-1.8432,851.1101,uM,11.55025879,uM
+Cupric sulfate (Cu),7758-98-7,249.69,0.331366772,Unknown,Logistic,uM,107.3913,-0.8818,70.6785,uM,5.348887707,uM
+Sodium selenite (Se),10102-18-8,172.94,0.260998743,Unknown,Gompertz,uM,102.1707,68.1542,61.6886,uM,4.213014368,uM
+Lead chloride (Pb),7758-95-4,278.11,2.35E+01,Unknown,Chapman,uM,83.3306,2.30E-03,3.90E+00,uM,379.9985128,uM
