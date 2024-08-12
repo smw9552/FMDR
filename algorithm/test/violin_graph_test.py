@@ -14,7 +14,7 @@ melted_data = df_comparison.melt(id_vars=['name'],
                                              'FMDR (100 points)', 'FMDR (1000 points)'],
                                  var_name='Type', value_name='MDR')
 
-# Draw Violin Plot
+# Draw Violin Plot #
 plt.figure(figsize=(12, 7))
 sns.violinplot(x='Type', y='MDR', data=melted_data, palette='Set2', inner='quartile')
 
