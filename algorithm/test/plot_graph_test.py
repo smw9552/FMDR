@@ -4,9 +4,8 @@ import matplotlib.pyplot as plt
 
 # Point MDR #
 
-
 # 데이터 로드
-df = pd.read_excel('/mnt/data/통합 문서1.xlsx', sheet_name='Sheet1')
+df = pd.read_excel('C:\\Users\\user\\PycharmProjects\\FMDR\\data\\graph_input\\point_mdr_input.xlsx', sheet_name='Sheet1')
 
 # 그래프를 그리기 위한 준비
 x_labels = df['name']
@@ -36,12 +35,13 @@ plt.show()
 
 
 
+
 # FMDR #
 import pandas as pd
 import matplotlib.pyplot as plt
 
 # 데이터 로드
-df_updated = pd.read_excel('/mnt/data/통합 문서2.xlsx', sheet_name='Sheet1')
+df_updated = pd.read_excel('C:\\Users\\user\\PycharmProjects\\FMDR\\data\\graph_input\\fmdr_input.xlsx', sheet_name='Sheet1')
 
 # 그래프를 그리기 위한 준비
 x_labels_updated = df_updated['name']

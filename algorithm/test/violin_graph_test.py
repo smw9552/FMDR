@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # 데이터프레임 정의 (이전에 데이터를 로드한 부분을 포함)
-file_path_comparison = 'your_file_path_here.xlsx'  # 실제 파일 경로로 대체하세요.
+file_path_comparison = "C:\\Users\\user\\PycharmProjects\\FMDR\\data\\graph_input\\point_mdr-fmdr_input.xlsx"
 df_comparison = pd.read_excel(file_path_comparison, sheet_name='Sheet1')
 
 
