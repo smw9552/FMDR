@@ -6,17 +6,15 @@ import matplotlib.pyplot as plt
 
 
 # load file info
-input_file_obs = "C:\\Users\\user\\PycharmProjects\\deep_tsp\\algorithm\\data\\experiment_raw\\20240719_exp_all.xlsx"
-input_file_path_pred = "C:\\Users\\user\\PycharmProjects\\deep_tsp\\algorithm\\data\\experiment\\all\\"
-output_file_path_image = "C:\\Users\\user\\PycharmProjects\\deep_tsp\\algorithm\\data\\experiment_mdr\\mdr_graph\\"
-output_file_path_mdr = "C:\\Users\\user\\PycharmProjects\\deep_tsp\\algorithm\\data\\experiment_mdr\\"
+input_file_obs = "C:\\Users\\user\\PycharmProjects\\FMDR\\data\\mixture_drc\\20240809_mixture_dataset.xlsx"
+input_file_path_pred = "C:\\Users\\user\\PycharmProjects\\FMDR\\data\\single_chemical_drc\\"
+output_file_path_image = "C:\\Users\\user\\PycharmProjects\\FMDR\\data\\result\\mdr_graph\\"
+output_file_path_mdr = "C:\\Users\\user\\PycharmProjects\\FMDR\\data\\result\\"
 
-with open("C:\\Users\\user\\PycharmProjects\\deep_tsp\\algorithm\\python_run\\rm_python_opt.py", encoding='utf-8') as f:
+with open("C:\\Users\\user\\PycharmProjects\\FMDR\\algorithm\\rm_python_opt.py", encoding='utf-8') as f:
     exec(f.read())
 
-#exec(open("C:\\Users\\user\\PycharmProjects\\deep_tsp\\algorithm\\python_run\\rm_python_opt.py").read())
 
-####
 #####################
 ##experimental data##
 #####################
