@@ -1,17 +1,11 @@
 Substance,CAS NO,MW,percentage,Species,RM,Unit for RM,a,b,g,Coversion Unit,EC50,Unit for SCA
-FCCP,370-86-5,254.17,0.11,Vibrio fischeri,BCP,uM,0.73,1.29,0.016,uM,0.57,uM
-CCCP,555-60-2,204.61,0.157,Vibrio fischeri,BCP,uM,0.25,1.2,0.054,uM,0.81,uM
-4-Phenylazophenol,1689-82-3,198.22,1.914,Vibrio fischeri,BCW,uM,-2.08,0.78,-0.033,uM,9.88,uM
-Dinoterb,1420-07-1,240.21,2.364,Vibrio fischeri,GL,uM,-7.71,6.62,0.706,uM,12.2,uM
-Pentachlorophenol,87-86-5,266.3,2.515,Vibrio fischeri,BCP,uM,-4.88,2.34,-0.167,uM,12.98,uM
-"2,4-Dinitro-1-naphtol",605-69-6,234.16,2.991,Vibrio fischeri,BCW,uM,-9.79,5.29,-0.34,uM,15.44,uM
-Dinoseb,88-85-7,240.21,3.177,Vibrio fischeri,BCL,uM,-5.05,1.79,0.005,uM,16.4,uM
-"2,3,4-Trichlorophenol",15950-66-0,197.4,3.342,Vibrio fischeri,BCW,uM,-6.12,2.31,-0.095,uM,17.25,uM
-"2,3,5?Trichlorophenol",933-78-8,197.4,3.691,Vibrio fischeri,BCW,uM,-38.32,31.61,-0.738,uM,19.05,uM
-"2,4,6?Trichlorophenol",88-06-2,197.4,4.723,Vibrio fischeri,BCP,uM,-2.57,0.94,-0.098,uM,24.38,uM
-"2,6-Dinitro-4-methylphenol",609-93-8,198.13,5.765765766,Vibrio fischeri,BCP,uM,-2.31,0.65,0.03,uM,29.76,uM
-"2,4-Dinitrophenol",51-28-5,184.11,7.602441151,Vibrio fischeri,BCP,uM,-1.31,0.35,0.009,uM,39.24,uM
-DNOC,534-52-1,198.13,11.42109852,Vibrio fischeri,BCP,uM,-3.06,0.59,0.111,uM,58.95,uM
-"2,6-Dinitrophenol",573-56-8,184.11,15.71248668,Vibrio fischeri,BCP,uM,-4.48,1.22,-0.084,uM,81.1,uM
-"3,4-Dinitrophenol",577-71-9,184.11,16.96018599,Vibrio fischeri,Weibull,uM,-6.18,2.99,,uM,87.54,uM
-"2,3,6-Trichlorophenol",933-75-5,197.4,17.55303691,Vibrio fischeri,BCW,uM,-4.82,1.1,-0.047,uM,90.6,uM
+Cinoxacin,28657-80-9,262.22,8.003,Vibrio fischeri,GL,uM,0.848,6.289,0.437,nM,0.446,nM
+Enoxacin,74011-58-8,320.32,2.764,Vibrio fischeri,GL,uM,16.557,26.812,0.133,nM,0.154,nM
+Flumequine,42835-25-6,261.25,1.306,Vibrio fischeri,GL,uM,100.582,103.12,0.0413,nM,0.0728,nM
+Lomefloxacin,98079-51-7,351.35,1.141,Vibrio fischeri,GL,uM,71.694,72.11,0.0475,nM,0.0636,nM
+Nalidixic acid,389-08-2,232.23,15.451,Vibrio fischeri,GL,uM,-8.213,128.48,0.042,nM,0.861,nM
+Norfloxacin,70458-96-7,319.33,1.236,Vibrio fischeri,Weibull,uM,7.497,6.77,,nM,0.0689,nM
+Ofloxacin,82419-36-1,361.4,0.675,Vibrio fischeri,Weibull,uM,4.829,3.648,,nM,0.0376,nM
+Oxolinic acid,14698-29-4,261.23,1.574,Vibrio fischeri,GL,uM,145.193,159.45,0.0297,nM,0.0877,nM
+Pipemidic acid,51940-44-4,303.32,60.295,Vibrio fischeri,BCW,uM,-3.942,2.153,0.495,nM,3.36,nM
+Piromidic acid,19562-30-2,288.3,7.555,Vibrio fischeri,Weibull,uM,1.018,3.687,,nM,0.421,nM
