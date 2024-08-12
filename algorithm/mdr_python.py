@@ -23,6 +23,7 @@ input_file_obs = "C:\\Users\\user\\PycharmProjects\\FMDR\\data\\mixture_drc\\202
 input_file_dir = "C:\\Users\\user\\PycharmProjects\\FMDR\\data\\single_chemical_drc\\"
 output_file_path_image = "C:\\Users\\user\\PycharmProjects\\FMDR\\data\\result\\mdr_graph\\"
 output_file_path_mdr = "C:\\Users\\user\\PycharmProjects\\FMDR\\data\\result\\"
+output_file_path_fmdr = "C:\\Users\\user\\PycharmProjects\\FMDR\\data\\result\\"
 
 
 # KRICT Server
@@ -74,6 +75,7 @@ for file in sorted_files:
 #Set range of effects#
 ######################
 effect = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+#effect = np.linspace(0.1, 0.8, 1000)
 
 
 ################
@@ -84,6 +86,7 @@ ecPoints_obs, name_list = m.exp_model(input_file_obs, module_path, rm_module_nam
 
 result_final_df_obs = pd.DataFrame(ecPoints_obs, columns=effect, index=name_list)
 final_df_obs = result_final_df_obs.transpose()
+
 
 ################
 ## Prediction ##
@@ -99,11 +102,9 @@ final_df_pred = result_df_pred.transpose()
 
 
 
-
-###################
-##MDR calculation##
-###################
-
+####################
+##FMDR calculation##
+####################
 
 ## (Mean MDR) 전 구간에 대한 평가 ##
 
@@ -147,7 +148,7 @@ for name in name_list:
 
     full_curve_mdr_list.append(np.mean(temp_mdr_list)) #평균 mdr 계산 결과를 추가
 
-
+    '''
     ## 그래프 그리고 저장
     plt.plot(conc_obs_F2, effect_F2, '-*', label="Obs", color='black')
     plt.plot(conc_pred_F2, effect_F2, '-*', label="Pred (CA model)", color='blue')
@@ -164,16 +165,35 @@ for name in name_list:
     output_file = output_file_path_image + str(name) + "_result.jpg"
     plt.savefig(output_file)
     plt.clf()  # 그래프 초기화 (초기화하지 않으면 누적됨)
+    '''
 
 
 
 result_df_mdr = pd.DataFrame(full_curve_mdr_list, index=name_list)
 
 
+fmdr_df = pd.DataFrame({
+    'name': name_list,
+    'Full curve MDR': full_curve_mdr_list
+
+})
+
+output_file_fmdr = output_file_path_fmdr + "fmdr_result_normal_points.xlsx"
+fmdr_df.to_excel(output_file_fmdr, index=False)
+
+
+
+
+#####################
+##Point calculation##
+#####################
+
 
 ## (Point MDR) EC10, 50 기준 평가 ##
 point_mdr_10_list = []
+point_mdr_30_list = []
 point_mdr_50_list = []
+point_mdr_70_list = []
 
 for name in name_list:
     conc_obs = final_df_obs[name].tolist()
@@ -201,20 +221,25 @@ for name in name_list:
 
 
     point_mdr_10_list.append(conc_pred_F2[0] / conc_obs_F2[0])
+    point_mdr_30_list.append(conc_pred_F2[2] / conc_obs_F2[2])
     point_mdr_50_list.append(conc_pred_F2[4] / conc_obs_F2[4])
+    point_mdr_70_list.append(conc_pred_F2[6] / conc_obs_F2[6])
 
 
 ## MDR 비교 데이터 표 생산 및 저장 ##
 mdr_df = pd.DataFrame({
+    'name': name_list,
     'Point MDR (EC10)': point_mdr_10_list,
+    'Point MDR (EC30)': point_mdr_30_list,
     'Point MDR (EC50)': point_mdr_50_list,
+    'Point MDR (EC70)': point_mdr_70_list,
     'Full curve MDR': full_curve_mdr_list
 
 })
 
-output_file_mdr = output_file_path_mdr + "mdr_result.xlsx"
+output_file_mdr = output_file_path_mdr + "point_mdr_result.xlsx"
 
-mdr_df.to_excel(output_file_mdr)
+mdr_df.to_excel(output_file_mdr, index=False)
 
 
 
