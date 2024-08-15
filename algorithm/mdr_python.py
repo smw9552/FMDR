@@ -19,15 +19,15 @@ tf.random.set_seed(random_seed)
 
 
 # load file info
-input_file_obs = "C:\\Users\\user\\PycharmProjects\\FMDR\\data\\mixture_drc\\20240809_mixture_dataset.xlsx"
-input_file_dir = "C:\\Users\\user\\PycharmProjects\\FMDR\\data\\single_chemical_drc\\"
-output_file_path_image = "C:\\Users\\user\\PycharmProjects\\FMDR\\data\\result\\mdr_graph\\"
-output_file_path_mdr = "C:\\Users\\user\\PycharmProjects\\FMDR\\data\\result\\"
-output_file_path_fmdr = "C:\\Users\\user\\PycharmProjects\\FMDR\\data\\result\\"
+input_file_obs = "C:\\Users\\mwseo\\PycharmProjects\\FMDR\\data\\mixture_drc\\20240809_mixture_dataset.xlsx"
+input_file_dir = "C:\\Users\\mwseo\\PycharmProjects\\FMDR\\data\\single_chemical_drc\\"
+output_file_path_image = "C:\\Users\\mwseo\\PycharmProjects\\FMDR\\data\\result\\mdr_graph\\"
+output_file_path_mdr = "C:\\Users\\mwseo\\PycharmProjects\\FMDR\\data\\result\\"
+output_file_path_fmdr = "C:\\Users\\mwseo\\PycharmProjects\\FMDR\\data\\result\\"
 
 
 # KRICT Server
-module_path = "C:\\Users\\User\\PycharmProjects\\FMDR\\algorithm\\"
+module_path = "C:\\Users\\mwseo\\PycharmProjects\\FMDR\\algorithm\\"
 rm_module_name = 'rm_python_opt'
 exec(open(module_path + str("rm_python_opt.py"), "r", encoding='utf-8').read())
 
@@ -74,8 +74,8 @@ for file in sorted_files:
 ######################
 #Set range of effects#
 ######################
-effect = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
-#effect = np.linspace(0.1, 0.8, 1000)
+#effect = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+effect = np.linspace(0.1, 0.3, 1000)
 
 
 ################
