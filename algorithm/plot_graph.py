@@ -20,12 +20,17 @@ x_labels = df['Name']
 ec_values = ['CMDR (EC10)', 'CMDR (EC30)', 'CMDR (EC50)', 'CMDR (EC70)']
 colors = ['b', 'g', 'r', 'c']  # EC10, EC30, EC50, EC70에 대한 색상
 
+
+# 범례에서 사용할 텍스트에 아래첨자 추가
+ec_labels = [r'CMDR (EC$_{10}$)', r'CMDR (EC$_{30}$)', r'CMDR (EC$_{50}$)', r'CMDR (EC$_{70}$)']
+
+
 # 개선된 그래프 그리기
 plt.figure(figsize=(12, 7))
 
 for i, ec in enumerate(ec_values):
     plt.plot(x_labels, df[ec], marker='o', markersize=8, markeredgewidth=2,
-             markeredgecolor='black', color=colors[i], linewidth=2, label=ec)
+             markeredgecolor='black', color=colors[i], linewidth=2, label=ec_labels[i])
 
 plt.xlabel('Mixtures', fontsize=14)
 plt.ylabel('MDR value', fontsize=14)
@@ -58,7 +63,7 @@ fmdr_values_updated = ['FMDR (10 points)', 'FMDR (30 points)', 'FMDR (50 points)
                        'FMDR (100 points)', 'FMDR (1000 points)']
 
 # 새로운 색상 조합 (보라색 대신 주황색)
-colors_alternative = ['m', 'pink', 'lime', 'purple', 'orange']  # 보라색을 주황색으로 대체
+colors_alternative = ['m', 'pink', 'lime', 'purple', 'orange']
 
 # 그래프 그리기
 plt.figure(figsize=(12, 7))
