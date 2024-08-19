@@ -27,7 +27,7 @@ for i, ec in enumerate(ec_values):
     plt.plot(x_labels, df[ec], marker='o', markersize=8, markeredgewidth=2,
              markeredgecolor='black', color=colors[i], linewidth=2, label=ec)
 
-plt.xlabel('Name', fontsize=14)
+plt.xlabel('Mixtures', fontsize=14)
 plt.ylabel('MDR value', fontsize=14)
 plt.title('Conventional MDR approach', fontsize=16)
 plt.legend(title='EC Levels', title_fontsize='13', fontsize='12', loc='upper right')
@@ -68,8 +68,8 @@ for i, fmdr in enumerate(fmdr_values_updated):
              markeredgecolor='black', color=colors_alternative[i], linewidth=2, label=fmdr)
 
 # 라벨링
-plt.xlabel('Name', fontsize=14)
-plt.ylabel('FMDR', fontsize=14)
+plt.xlabel('Mixtures', fontsize=14)
+plt.ylabel('MDR value', fontsize=14)
 plt.title('Full curved MDR approach', fontsize=16)
 
 # y축 범위 설정
