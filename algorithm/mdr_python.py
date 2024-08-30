@@ -9,7 +9,7 @@ import tensorflow as tf
 
 m = models()
 
-
+#add
 #set seed
 random_seed = 2024
 random.seed(random_seed)
