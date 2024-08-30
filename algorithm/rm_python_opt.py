@@ -1,3 +1,19 @@
+# Affiliation: Korea Research Institute of Chemical Technology (KRICT)
+# Date: August 30, 2024 (Last updated)
+# Version: 1.0
+# ------------------------------
+# Description:
+# This script includes equations for nonlinear functions.
+# It is used to calculate toxicity concentrations for effects based on the nonlinear function.
+#
+# Requirements:
+# - Python 3.11
+# - numpy library version 1.24.3
+# - scipy library version 1.11.1
+# -------------------------------
+
+
+
 import numpy as np
 from spyder_kernels.utils.lazymodules import scipy
 import math

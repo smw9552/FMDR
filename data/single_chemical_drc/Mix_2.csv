@@ -1,9 +1,0 @@
-Substance,CAS NO,MW,percentage,Species,RM,Unit for RM,a,b,g,Coversion Unit,EC50,Unit for SCA
-PFNA,375-95-1,464.08,14.30667148,Unknown,Chapman,uM,98.92,2.19E-02,3.24E+01,uM,122.559698,uM
-PFOA,335-67-1,414.07,17.56019581,Unknown,Sigmoid,uM,98.5221,63.3066,288.4819,uM,150.4313773,uM
-BP-3,131-57-7,228.12,26.51268736,Unknown,Logistic,uM,76.13,-1.551,767.9,uM,227.1238953,uM
-Triclosan,3380-34-5,289.54,0.588480847,Unknown,Logistic,uM,102,-1.62E+00,1.98E+01,uM,5.041286859,uM
-propyl paraben,94-13-3,180.2,31.49289327,Unknown,Logistic,uM,114.4,-2.067,839.1,uM,269.7873851,uM
-Methyl mercury chloride (Hg),115-09-3,251.08,1.348287901,Unknown,Logistic,uM,27675.7971,-1.8432,851.1101,uM,11.55025879,uM
-Cadmium chloride,10108-64-2,183.32,0.098189912,Unknown,Logistic,uM,99.761,-1.1646,5.5365,uM,0.841154843,uM
-Antimony(III) chloride,10025-91-9,228.12,8.092593427,Unknown,Chapman,uM,104.9264,0.0051,1.9319,uM,69.32610481,uM

@@ -1,3 +1,22 @@
+# -------------------------------
+# Script Name: model.py
+# Author: Myungwon Seo
+# Affiliation: Korea Research Institute of Chemical Technology (KRICT)
+# Date: August 30, 2024 (Last updated)
+# Version: 1.0
+# ------------------------------
+# Description:
+# This script is designed to analyze experimental DRC information and utilize the CA prediction model.
+#
+# Requirements:
+# - Python 3.11
+# - numpy library version 1.24.3
+# - pandas library version 2.0.3
+# - scipy library version 1.11.1
+# -------------------------------
+
+
+
 from matplotlib.ticker import FuncFormatter
 import importlib
 import sys
